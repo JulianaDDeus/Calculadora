@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Chewy&family=Fascinate&family=Playwrite+NZ+Guides&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css"></link>
+</head>
+<body>
+    <header>
+        <h1 class="playwrite-nz-guides-regular">Calculadora</h1>
+    </header>
+    <main>
+        <div id="telaConta">
+            <input id="conta" type="text">
+        </div>
+        <div id="botoes">
+            <div class="fileira">  
+                <button onclick="apagaConta()">clean</button>
+                <button onclick="escreveConta('(')">(</button>
+                <button onclick="escreveConta(')')">)</button>
+                <button onclick="escreveConta('%')">%</button>
+            </div>
+            <div class="fileira">
+                <button onclick="escreveConta(7)">7</button>
+                <button onclick="escreveConta(8)">8</button>
+                <button onclick="escreveConta(9)">9</button>
+                <button onclick="escreveConta('/')">/</button>
+            </div>
+            <div class="fileira">
+                <button onclick="escreveConta(4)">4</button>
+                <button onclick="escreveConta(5)">5</button>
+                <button onclick="escreveConta(6)">6</button>
+                <button onclick="escreveConta('X')">X</button>
+            </div>
+            <div class="fileira">
+                <button onclick="escreveConta(1)">1</button>
+                <button onclick="escreveConta(2)">2</button>
+                <button onclick="escreveConta(3)">3</button>
+                <button onclick="escreveConta('-')">-</button>
+            </div>
+            <div class="fileira">
+                <button onclick="escreveConta(',')">,</button>
+                <button onclick="escreveConta(0)">0</button>
+                <button onclick="conta()">=</button>
+                <button onclick="escreveConta('+')">+</button>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

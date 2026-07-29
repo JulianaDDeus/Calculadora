@@ -1,0 +1,54 @@
+body{
+    background-image: url(./imgs/bgCalculadora.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+header{
+    text-align: center;
+}
+h1{
+    margin: 30px;
+    padding: 10px;
+}
+.playwrite-nz-guides-regular {
+  font-family: "Playwrite NZ Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#conta{
+    padding: 10px;
+    width: 240px;
+    height: 50px;
+    margin: 5px;
+    border-style: initial;
+    border: solid 2px rgb(21, 21, 70);
+    border-radius: 10px;
+    text-align: right;
+}
+#botoes{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.class{
+    display: inline;
+}
+button{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border-style: initial;
+    border: solid 2px rgb(21, 21, 70);
+    border-radius: 10px;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: rgb(103, 133, 179);
+}
