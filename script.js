@@ -1,3 +1,4 @@
+// TODO traduzir para o inglês
 tela = document.getElementById('conta')
 tela.value = ""
 
